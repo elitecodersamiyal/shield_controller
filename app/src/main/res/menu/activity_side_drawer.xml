@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_lockapp"
+            android:icon="@android:drawable/ic_secure"
+            android:title="lockapps" />
+        <item
+            android:id="@+id/nav_ulockapp"
+            android:icon="@android:drawable/ic_partial_secure"
+            android:title="Unlock Apps" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@android:drawable/ic_lock_power_off"
+            android:title="@string/logout" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Settings" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/shield"
+            android:title="About" />
+    </group>
+
+
+</menu>

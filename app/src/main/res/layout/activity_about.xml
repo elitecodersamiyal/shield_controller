@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".About">
+
+    <LinearLayout
+        android:background="@drawable/actionbar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+
+        <ImageButton
+            android:id="@+id/back_btn"
+            android:background="@drawable/actionbar"
+            android:layout_width="70dp"
+            android:layout_height="60dp"
+            android:src="?attr/actionModeCloseDrawable"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:src="@drawable/shield"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textColor="#333"
+        android:textAlignment="center"
+        android:textSize="10pt"
+        android:text="Shield Controller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textColor="#333"
+        android:textAlignment="center"
+        android:textSize="10pt"
+        android:text="Developer by Sagar yadav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:textColor="#333"
+        android:textAlignment="center"
+        android:textSize="10pt"
+        android:text="Email: samiya7pro@gmail.com"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

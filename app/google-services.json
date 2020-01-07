@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "294207996005",
+    "firebase_url": "https://regapp-c1d6c.firebaseio.com",
+    "project_id": "regapp-c1d6c",
+    "storage_bucket": "regapp-c1d6c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:294207996005:android:1c6043c93edafca5",
+        "android_client_info": {
+          "package_name": "com.sam007.samiyal.reg_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "294207996005-k78qvh534tna1na2rb33flutcgsj4m5m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBeyBlN7wj34VHV2N0s7znfwXzw-fvm4RA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

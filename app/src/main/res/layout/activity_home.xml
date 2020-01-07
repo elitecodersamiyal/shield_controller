@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".home"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteX="0dp">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="60dp"
+            android:layout_height="64dp"
+            android:background="@drawable/actionbar"
+            android:contentDescription="@string/app_name"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="5dp"
+            android:src="@drawable/shield" />
+
+        <View
+            android:id="@+id/view3"
+            android:layout_width="240dp"
+            android:layout_height="64dp"
+            android:background="@drawable/actionbar">
+
+        </View>
+
+        <ImageView
+            android:id="@+id/i_logout"
+            android:layout_width="60dp"
+            android:layout_height="64dp"
+            android:background="@drawable/actionbar"
+            android:contentDescription="@string/app_name"
+            android:paddingLeft="8dp"
+            android:paddingTop="5dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="5dp"
+            android:src="@android:drawable/ic_lock_power_off" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="@string/ope"
+        android:textAlignment="center"
+        android:textSize="15pt" />
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:layout_marginBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="359dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="316dp">
+
+                <Button
+                    android:id="@+id/lock_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="200dp"
+                    android:background="@drawable/background"
+                    android:text="@string/l_title"
+                    android:textSize="10pt" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:background="@drawable/actionbar"
+                    android:layout_marginBottom="50dp"
+                    android:src="@drawable/shield"
+                    tools:ignore="ContentDescription" />
+
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="359dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="316dp">
+
+                <Button
+                    android:id="@+id/time_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="200dp"
+                    android:background="@drawable/background"
+                    android:text="@string/u_title"
+                    android:textSize="10pt" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="50dp"
+                    android:src="@drawable/shield"
+                    android:background="@drawable/actionbar"
+                    tools:ignore="ContentDescription" />
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="359dp"
+                android:layout_height="wrap_content"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="316dp">
+
+                <Button
+                    android:id="@+id/monitor_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="200dp"
+                    android:background="@drawable/background"
+                    android:text="@string/m_title"
+                    android:textSize="10pt" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/actionbar"
+                    android:src="@drawable/shield"
+                    tools:ignore="ContentDescription" />
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

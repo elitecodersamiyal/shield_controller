@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="tr">#00FFFFFF</color>
+    <color name="white" > #ffffff </color>
+
+    <color name="HobbesText" > #444 </color>
+    <color name="HobbesBrownAccent"> #660</color>
+    <color name="HobbesBackgroundDark"> #222</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="tealBackground">#235b7b</color>
+    <color name="black">#000</color>
+    <color name="checkboxColor">#fff</color>
+    <color name="bottomBoxSepia">#cdc39f</color>
+    <color name="topBoxSepia">#dcd2ac</color>
+    <color name="HobbesBlush">#f094c2</color>
+    <color name="HobbesBannerBorder">#81ae61</color>
+    <color name="HobbesPrimaryAccent">#2c6f8e</color>
+    <color name="HobbesDarkTealAccent">#22576f</color>
+    <color name="HobbesFaintTeal">#398c94</color>
+    <color name="HobbesGray">#999999</color>
+    <color name="HobbesCardinal">#c41e3a</color>
+
+</resources>
